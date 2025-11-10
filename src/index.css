@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  /* Medium-style typography: Lora (Charter-like) for body, Inter for UI/headings */
+  font-family: 'Lora', 'Charter', 'Bitstream Charter', 'Sitka Text', Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0D0C1D;
+}
+
+/* Headings use Inter (Medium's heading font) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 600;
+}
+
+/* Navbar and UI elements use Inter */
+.navbar, .navbar * {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
